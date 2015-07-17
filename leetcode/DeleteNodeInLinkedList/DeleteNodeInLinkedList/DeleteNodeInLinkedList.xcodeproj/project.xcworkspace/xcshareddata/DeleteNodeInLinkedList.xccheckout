@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B9D533AE-28E9-443C-9F1A-9707A33BD6D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8094EAFC62EA21D50D613822827E6C727D6B1890</key>
+		<string>https://github.com/chenjunqian/AlgorithmPractice</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>leetcode/DeleteNodeInLinkedList/DeleteNodeInLinkedList/DeleteNodeInLinkedList.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8094EAFC62EA21D50D613822827E6C727D6B1890</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chenjunqian/AlgorithmPractice</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8094EAFC62EA21D50D613822827E6C727D6B1890</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8094EAFC62EA21D50D613822827E6C727D6B1890</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlgorithmPractice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
