@@ -1,0 +1,19 @@
+/*
+ * list
+ *
+ *  Created on: Feb 13, 2016
+ *      Author: Eason
+ */
+
+#ifndef LIST_
+#define LIST_
+
+#include <stdlib.h>
+
+typedef struct ListElmt_{
+	void *data;
+	struct ListElmt_ *next;
+
+}ListElmt;
+
+#endif /* LIST_ */
