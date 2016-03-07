@@ -47,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B7420DA1C8DC56D008A7520 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				9BE37F061C74C0600074D474 /* set.c */,
+				9BE37F071C74C0600074D474 /* set.h */,
+				9B7420D61C8DAEE7008A7520 /* cover.c */,
+				9B7420D71C8DAEE7008A7520 /* cover.h */,
+			);
+			name = Set;
+			sourceTree = "<group>";
+		};
+		9B7420DB1C8DC59E008A7520 /* HashMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HashMap;
+			sourceTree = "<group>";
+		};
 		9BE37EF01C6F7AA50074D474 = {
 			isa = PBXGroup;
 			children = (
@@ -69,10 +87,8 @@
 				9BE37EFC1C6F7AA60074D474 /* main.c */,
 				9BE37F031C6F7AD80074D474 /* list.h */,
 				9BE37F041C6F7BFF0074D474 /* list.c */,
-				9BE37F061C74C0600074D474 /* set.c */,
-				9BE37F071C74C0600074D474 /* set.h */,
-				9B7420D61C8DAEE7008A7520 /* cover.c */,
-				9B7420D71C8DAEE7008A7520 /* cover.h */,
+				9B7420DA1C8DC56D008A7520 /* Set */,
+				9B7420DB1C8DC59E008A7520 /* HashMap */,
 			);
 			path = List;
 			sourceTree = "<group>";
