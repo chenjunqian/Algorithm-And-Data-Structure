@@ -26,17 +26,17 @@ int cover(Set *members, Set *subsets , Set *covering){
         
         /*从subsets中找出能够覆盖到members的最大交集*/
         for (member = list_head(subsets); member!=NULL; member = list_next(member)) {
-            /**/
-            if (set_insersection(&intersection, &((KSet *)list_data(member))->set, members)!=0) {
+            /*找出交集*/
+            if (set_intersection(&intersection, &((KSet *)list_data(member))->set, members)!=0) {
                 return -1;
             }
             
+            /*如果得出的交集大于之前得到的则替换之前的交集*/
             if (set_size(&intersection)>max_size) {
                 max_member = member;
                 max_size = set_size(&intersection);
             }
             
-            /**/
             set_destroy(&intersection);
         }
         

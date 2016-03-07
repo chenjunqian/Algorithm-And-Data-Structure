@@ -81,7 +81,7 @@ int set_union(Set *setu,const Set *set1,const Set *set2){
 }
 
 /*得到集合的交集*/
-int set_insersection(Set *seti,const Set *set1,const Set *set2){
+int set_intersection(Set *seti,const Set *set1,const Set *set2){
     ListElmt *member;
     void *data;
     
