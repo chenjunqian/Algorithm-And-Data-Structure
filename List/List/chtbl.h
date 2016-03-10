@@ -26,5 +26,7 @@ typedef struct CHTbl_{
 
 int chtbl_init(CHTbl *chtbl,int buckets,int (*h)(const void *key),int (*match)(const void *key1,const void *key2),void (*destroy)(void *data));
 void chtbl_destroy(CHTbl *chtbl);
-
+int chtbl_insert(CHTbl *chtbl,const void *data);
+int chtbl_remove(CHTbl *chtbl,void **data);
+int chtbl_lookup(const CHTbl *chtbl,void **data);
 #endif /* chtbl_h */

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B7420D81C8DAEE7008A7520 /* cover.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B7420D61C8DAEE7008A7520 /* cover.c */; };
 		9B7420DE1C8F1F6F008A7520 /* chtbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B7420DC1C8F1F6F008A7520 /* chtbl.c */; };
+		9B7420E21C9196C6008A7520 /* bitree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B7420E01C9196C6008A7520 /* bitree.c */; };
 		9BE37EFD1C6F7AA60074D474 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37EFC1C6F7AA60074D474 /* main.c */; };
 		9BE37F051C6F7BFF0074D474 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37F041C6F7BFF0074D474 /* list.c */; };
 		9BE37F081C74C0600074D474 /* set.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BE37F061C74C0600074D474 /* set.c */; };
@@ -31,6 +32,8 @@
 		9B7420D71C8DAEE7008A7520 /* cover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cover.h; sourceTree = "<group>"; };
 		9B7420DC1C8F1F6F008A7520 /* chtbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chtbl.c; sourceTree = "<group>"; };
 		9B7420DD1C8F1F6F008A7520 /* chtbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chtbl.h; sourceTree = "<group>"; };
+		9B7420E01C9196C6008A7520 /* bitree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitree.c; sourceTree = "<group>"; };
+		9B7420E11C9196C6008A7520 /* bitree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitree.h; sourceTree = "<group>"; };
 		9BE37EF91C6F7AA60074D474 /* List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = List; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE37EFC1C6F7AA60074D474 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9BE37F031C6F7AD80074D474 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
@@ -70,6 +73,15 @@
 			name = HashMap;
 			sourceTree = "<group>";
 		};
+		9B7420DF1C91969F008A7520 /* BITree */ = {
+			isa = PBXGroup;
+			children = (
+				9B7420E01C9196C6008A7520 /* bitree.c */,
+				9B7420E11C9196C6008A7520 /* bitree.h */,
+			);
+			name = BITree;
+			sourceTree = "<group>";
+		};
 		9BE37EF01C6F7AA50074D474 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +104,7 @@
 				9BE37EFC1C6F7AA60074D474 /* main.c */,
 				9BE37F031C6F7AD80074D474 /* list.h */,
 				9BE37F041C6F7BFF0074D474 /* list.c */,
+				9B7420DF1C91969F008A7520 /* BITree */,
 				9B7420DA1C8DC56D008A7520 /* Set */,
 				9B7420DB1C8DC59E008A7520 /* HashMap */,
 			);
@@ -156,6 +169,7 @@
 			files = (
 				9BE37F081C74C0600074D474 /* set.c in Sources */,
 				9BE37EFD1C6F7AA60074D474 /* main.c in Sources */,
+				9B7420E21C9196C6008A7520 /* bitree.c in Sources */,
 				9BE37F051C6F7BFF0074D474 /* list.c in Sources */,
 				9B7420DE1C8F1F6F008A7520 /* chtbl.c in Sources */,
 				9B7420D81C8DAEE7008A7520 /* cover.c in Sources */,
