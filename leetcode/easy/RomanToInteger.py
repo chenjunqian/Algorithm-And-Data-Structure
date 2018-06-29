@@ -14,8 +14,4 @@ class Solution:
                 sum = sum + numerals[s[i]]
         return sum + numerals[s[-1]]
             
-                
 
-if __name__ == '__main__':
-    s = Solution()
-    print(s.romanToInt('MCMXCIV'))

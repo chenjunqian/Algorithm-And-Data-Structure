@@ -11,5 +11,7 @@ class Solution:
         result = 0
         while temp:
             result = result*10 + temp%10
-            temp = x//10
-        return temp == result
+            temp = temp//10
+            print('result : '+str(result))
+            print('temp : '+str(temp))
+        return x == result
