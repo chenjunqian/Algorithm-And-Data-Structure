@@ -1,3 +1,5 @@
 /netbeans_hello_world/build/
 /netbeas_hello_world/build/
 /netbeas_hello_world/dist/
+.vscode/.ropeproject/objectdb
+.vscode/.ropeproject/config.py
